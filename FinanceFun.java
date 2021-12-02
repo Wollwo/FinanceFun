@@ -402,7 +402,7 @@ class Gui
 			exitProgram.setAccelerator(KeyStroke.getKeyStroke('E', CTRL_DOWN_MASK));
 		
 		// ABOUT DROP MENU
-		aboutInfo = new JMenuItem("<html>This was made for LOLs. To learn JAVA and<br> maybe to use it in tabletop games<br>such as monopoly, but fo only one player<br> (at the moment).<br>I was too lazy to make it for multiple users.<br><br>made by Wollwo<br><br>btw. this serves no purpose</html>");
+		aboutInfo = new JMenuItem("<html>This was made for LOLs. To learn JAVA and<br> maybe to use it in tabletop games<br>such as monopoly, but fo only one player<br> (at the moment).<br>><br>made by Wollwo<br><</html>");
 		//aboutInfo.setEnabled(false);
 		
 		// ACTION LISTENER FOR ITEMS IN FILE MENU
